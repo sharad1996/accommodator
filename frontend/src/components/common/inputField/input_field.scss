@@ -1,0 +1,49 @@
+.input_container {
+}
+.form-control {
+  border: 0px;
+  border-bottom: 1px solid gainsboro;
+}
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: white;
+  border: 0px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.floating-label {
+  position: absolute;
+  left: 4rem;
+  top: 1rem;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  pointer-events: none;
+}
+
+input {
+  padding-top: 40px !important;
+  background: transparent;
+  // padding-bottom: 12px !important;
+  &:focus,
+  &.activated {
+    & ~ .floating-label {
+      top: -6px;
+      transition: 0.2s ease all;
+      font-size: 12px;
+      color: rgb(139, 129, 129);
+      z-index: 10;
+    }
+  }
+  &.form-control:focus {
+    box-shadow: none !important;
+  }
+}

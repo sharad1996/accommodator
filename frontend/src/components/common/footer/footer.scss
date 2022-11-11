@@ -1,0 +1,65 @@
+.footer-search {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  .city-visibility-toggle {
+    font-weight: 600;
+    color: #333;
+  }
+  .city-list {
+    font-size: 0.85rem !important;
+  }
+}
+
+.footer-main {
+  padding-left: 4rem;
+  .links {
+    display: flex;
+    flex-direction: column;
+    // padding-left: 100px;
+    a {
+      color: #999 !important;
+      font-size: 0.7rem;
+      margin-bottom: 0.1rem;
+    }
+  }
+  .icons {
+    display: flex;
+    a {
+      font-size: 0.7rem;
+      margin-bottom: 0.1rem;
+      margin-right: 0.4rem;
+    }
+    svg {
+      width: 16px;
+      height: 16px;
+      fill: #999;
+    }
+  }
+  .countries {
+    // display: none;
+    .flag {
+      width: 20px;
+      height: auto;
+      margin-right: 0.25rem;
+      vertical-align: middle;
+    }
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: #999 !important;
+      font-size: 0.7rem;
+      margin-bottom: 0.1rem;
+    }
+  }
+  .legal {
+    color: #999 !important;
+    font-size: 0.8rem;
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: #585858;
+    }
+  }
+}

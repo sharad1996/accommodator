@@ -1,0 +1,68 @@
+@font-face {
+  src: url('./assets/fonts/Libre_Franklin/LibreFranklin-Regular.ttf');
+  font-family: 'LibreFranklin-Regular';
+}
+
+@font-face {
+  src: url('./assets/fonts/Libre_Franklin/LibreFranklin-Light.ttf');
+  font-family: 'LibreFranklin-Light';
+}
+
+@font-face {
+  src: url('./assets/fonts/Libre_Franklin/LibreFranklin-Thin.ttf');
+  font-family: 'LibreFranklin-Thin';
+}
+
+@font-face {
+  src: url('./assets/fonts/Libre_Franklin/LibreFranklin-Bold.ttf');
+  font-family: 'LibreFranklin-Bold';
+}
+
+@font-face {
+  src: url('./assets/fonts/Libre_Franklin/LibreFranklin-SemiBold.ttf');
+  font-family: 'LibreFranklin-SemiBold';
+}
+
+body {
+  margin: 0;
+  font-family: 'LibreFranklin-Regular', sans-serif !important;
+  line-height: 1.375;
+  font-size: 1rem;
+  /* font-weight: bolder !important; */
+}
+
+code {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Global CSS */
+a {
+  color: #0c82a5 !important;
+  text-decoration: none !important;
+}
+
+.btn {
+  border-radius: 0;
+  border: ;
+}
+
+.c-primary:hover {
+  background-color: #c82021 !important;
+  border-color: #c82021 !important;
+}
+
+.c-primary {
+  color: #fff !important;
+  background-color: #c82021 !important;
+  border-color: #c82021 !important;
+  border-radius: 0 !important;
+  border-color: none !important;
+}
+
+.form-control {
+  border-radius: 0 !important;
+}
+
+.clickable {
+  cursor: pointer;
+}

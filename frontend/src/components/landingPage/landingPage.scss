@@ -1,0 +1,75 @@
+@import '~video-react/styles/scss/video-react';
+.landing-page-bg {
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.55) 0px, rgba(0, 0, 0, 0) 250px),
+  //   // url(https://ssl.cdn-redfin.com/v289.3.0/images/homepage/banners/genHomepageDesktopBanner/SunnyVideo_Homepage.jpg),
+  //     // url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAwICAgJCAwJCQwRCwoL…GJFiEjoSuEA4j7NcEnVp1vYrVZQFckvLjeAcD+1D9wb8Ue3fXXI0TqbOCbMUqWjSPDe8ZX/9k=);
+  //     url(../../assets/images/Cover.jpg);
+  background: #585858;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+
+  .brand-text {
+    font-size: 2.25rem;
+    line-height: 100%;
+    margin: 0 0 1rem;
+    margin-bottom: 2rem;
+    font-family: 'LibreFranklin-Thin';
+  }
+}
+.section-content {
+  padding: 2rem;
+  // max-width: 1260px;
+  // width: 82%;
+  border-bottom: 1px solid #e2e2e2;
+  &.border-bottom {
+    border-bottom: 1px solid #e2e2e2;
+  }
+}
+
+.service-story {
+  .content {
+    // display: flex;
+    // justify-content: center;
+    text-align: center;
+    .title {
+      font-size: 1.75rem;
+      font-weight: 200;
+      // padding: 0.5rem 0;
+      font-family: 'LibreFranklin-Thin';
+    }
+    .font-copy {
+      // padding: 0 7rem;
+      max-width: 50%;
+    }
+  }
+}
+
+.anchor-btn {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 2px 2px 2px 2px;
+  transition: all 0.1s ease-out 0s;
+  display: inline-block;
+  height: 40px;
+  padding: 12px 1.5rem;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: -0.1px;
+  line-height: 1;
+  box-shadow: none;
+  color: #585858 !important;
+}

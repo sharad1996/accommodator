@@ -1,0 +1,41 @@
+.fixed-top {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.header-main {
+  nav {
+    color: #ffffff !important;
+    .navbar-brand {
+      svg {
+        height: 30px;
+        width: 95px;
+      }
+    }
+    .nav-link {
+      color: unset !important;
+      font-size: 14px;
+      margin-left: 1rem;
+      font-weight: 500;
+      &.btn {
+        border: 1px solid #ccc;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        width: 75px;
+        font-weight: 600;
+      }
+      &:hover {
+        color: #ccc !important;
+      }
+    }
+  }
+  .white-bg {
+    color: #ffffff;
+  }
+}

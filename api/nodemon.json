@@ -1,0 +1,6 @@
+{
+    "exec": "npm run dev",
+    "watch": ["src/*", "app.js"],
+    "ext": "js, html, css, json"
+  }
+  

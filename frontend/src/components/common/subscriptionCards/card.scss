@@ -1,0 +1,52 @@
+.nav-bck {
+  background: rgba(211, 226, 228, 0.99);
+  box-shadow: none;
+  border-color: transparent;
+  min-height: 380px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  .nav-link {
+    color: #21666e !important;
+    border: 0px;
+  }
+  &.active {
+    background: #21666e;
+    transform: scale(1.1);
+    .nav-link {
+      color: #ffff !important;
+    }
+  }
+  .plan-title {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 900;
+    margin: 20px 0 10px;
+  }
+  .plan-amount {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 900;
+    margin: 20px 0 10px;
+  }
+  .select-plan-btn {
+    border-radius: 20px;
+    border: 1px solid #21666e;
+    color: #21666e !important;
+    &.btn-active {
+      background: rgba(211, 226, 228, 0.99);
+      color: #21666e !important;
+    }
+  }
+}
+.nav-bck:hover {
+  background: #21666e;
+  transform: scale(1.1);
+  .nav-link {
+    color: #ffff !important;
+  }
+  .select-plan-btn {
+    border-radius: 20px;
+    background: rgba(211, 226, 228, 0.99);
+    color: #21666e !important;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "houzzleads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend/ && npm run build",
+    "install": "(cd frontend/ && npm install) && (cd api/ && npm install)",
+    "start": "concurrently \"cd frontend/ && PORT=3000 npm start\" \"cd api/ && PORT=3030 npm run start\"",
+    "start:prod": "cd api/ && npm start",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=development; npm run install",
+    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production; npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peregrine-it/map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peregrine-it/map/issues"
+  },
+  "homepage": "https://github.com/peregrine-it/map#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.56.0"
+  },
+  "engines": {
+    "node": "12.11.1"
+  }
+}

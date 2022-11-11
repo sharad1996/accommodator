@@ -1,0 +1,112 @@
+.search-main {
+  .search-form {
+    display: flex;
+    position: relative;
+    input {
+      border-radius: 0;
+      padding-right: 78px;
+    }
+
+    .clear-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100px;
+      width: 100px;
+      background-color: transparent;
+      border: 0;
+      height: 100%;
+      width: 20px;
+      right: 56px;
+      svg {
+        height: 18px;
+        width: 18px;
+        path {
+          fill: #999;
+        }
+      }
+    }
+
+    .search-btn {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      background-color: #c82021;
+      border: 0;
+      height: 100%;
+      width: 44px;
+      right: 0;
+      border-radius: 0 2px 2px 0;
+      cursor: pointer;
+      svg {
+        height: 18px;
+        width: 18px;
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+  .search-results {
+    
+    width: 100%;
+    z-index: 200;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    max-height: 820px;
+    overflow-y: auto;
+    font-weight: 400;
+    border-collapse: collapse;
+
+    .content {
+      border-bottom: 1px solid #e2e2e2;
+      .type {
+        .type-text {
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: 14px;
+          color: #585858;
+          // padding: 1rem 0 0.25rem 40px;
+        }
+        .type-icon {
+          display: inline-block;
+          margin: 16px 16px 0 20px;
+
+          svg {
+            height: 18px;
+            width: 18px;
+            path {
+              fill: #767676;
+            }
+          }
+        }
+      }
+      .search-item-row {
+        position: relative;
+        padding: 10px 60px 10px 0;
+        border-bottom: 1px dashed #e2e2e2;
+        margin-left: 54px;
+        &:last-child {
+          border-bottom: 0px;
+        }
+        .title {
+          font-size: 16px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 20px;
+        }
+        .sub-title {
+          color: #999;
+          font-size: 12px;
+          margin-top: 1px;
+        }
+      }
+    }
+  }
+}
+input {
+   padding-top: 11px !important; 
+   background: transparent; 
+}
